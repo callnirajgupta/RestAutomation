@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.WebService</groupId>
-  <artifactId>WebServiceTesting</artifactId>
+  <artifactId>WebServiceTestingHttpCleint</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>WebServiceTesting</name>
+  <name>WebServiceTestingHttpCleint</name>
   <url>http://maven.apache.org</url>
 
   <properties>
