@@ -17,12 +17,13 @@ public class Test {
 
 	public static void main(String[] args) throws ParseException, IOException {
 		// TODO Auto-generated method stub
-		String restURL_JSON = "http://restapi.demoqa.com/utilities/weather/city/Hyderabad";
+		//String restURL_JSON = "http://restapi.demoqa.com/utilities/weather/city/Hyderabad";
+		String restURL_JSON = "http://restapi.demoqa.com/utilities/weather/city/Bangalore";
 		
 		HttpUriRequest request = new HttpGet(restURL_JSON);
 		
 		//So you can add header like cookies,ID...input
-		//request.addHeader(arg0, arg1);
+		//request.addHeader("cookies", "fgfdgfd");
 		
 		// send response or execute query
 		HttpResponse httpResponse = HttpClientBuilder.create().build().execute(request);
@@ -36,7 +37,7 @@ public class Test {
 		 System.out.println("print result "+result);
 		// Convert the result as a String to a JSON object
 		JSONObject jo = new JSONObject(result);
-		 System.out.println("Verify content"+jo.getString("City"));
+		 System.out.println("Verify content:"+jo.getString("City"));
 		// Verify content
 		//Assert.assertEquals(expectedValue, jo.getString(element));
 
