@@ -1,5 +1,5 @@
 @CityTem @Regression
-Feature: Mandatory field validation of AbstractAgreement page
+Feature:verify city temperature
 
 Scenario Outline: get city temperature
 Given the Rest API City temperature is up an runing

@@ -27,7 +27,7 @@ import cucumber.api.java.en.When;
 public class GlobalStepDefinition {
 	
 	private static final Logger LOGGER = LogManager.getLogger(GlobalStepDefinition.class);
-	public static HttpResponse httpResponse;
+	private static HttpResponse httpResponse;
 	private static String city;
 
 	@Before()
@@ -106,6 +106,12 @@ public class GlobalStepDefinition {
 	}
 
 	
+	public static HttpResponse getHttpResponse() {
+		return httpResponse;
+	}
+	public static void setHttpResponse(HttpResponse httpResponse) {
+		GlobalStepDefinition.httpResponse = httpResponse;
+	}
 	@After()
 	public void TearDown(Scenario scenario) {
 		LOGGER.info("Inside Teardown method");
