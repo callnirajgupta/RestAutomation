@@ -1,0 +1,89 @@
+2018-04-29 07:47:39 INFO  RestfulUtil:17 - Inside static block
+2018-04-29 07:47:39 INFO  RestfulUtil:29 - delete log from logs folder
+2018-04-29 07:47:39 DEBUG RestfulUtil:34 - Logs deleted
+2018-04-29 07:47:39 DEBUG RestfulUtil:34 - Logs deleted
+2018-04-29 07:47:39 INFO  GlobalStepDefinition:35 - Inside Setup method
+2018-04-29 07:47:40 INFO  RestfulUtil:40 - Inside getConfigProperties Method
+2018-04-29 07:47:41 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-04-29 07:47:41 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-04-29 07:47:41 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2018-04-29 07:47:41 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2018-04-29 07:47:41 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:8081
+2018-04-29 07:47:41 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:8081
+2018-04-29 07:47:41 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49297<->127.0.0.1:8081
+2018-04-29 07:47:41 DEBUG MainClientExec:256 - Executing request POST /messenger/webapi/messages HTTP/1.1
+2018-04-29 07:47:41 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-04-29 07:47:41 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-04-29 07:47:41 DEBUG headers:133 - http-outgoing-0 >> POST /messenger/webapi/messages HTTP/1.1
+2018-04-29 07:47:41 DEBUG headers:136 - http-outgoing-0 >> Content-type: application/json
+2018-04-29 07:47:41 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 93
+2018-04-29 07:47:41 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:8081
+2018-04-29 07:47:41 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-04-29 07:47:41 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+2018-04-29 07:47:41 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-04-29 07:47:41 DEBUG wire:73 - http-outgoing-0 >> "POST /messenger/webapi/messages HTTP/1.1[\r][\n]"
+2018-04-29 07:47:41 DEBUG wire:73 - http-outgoing-0 >> "Content-type: application/json[\r][\n]"
+2018-04-29 07:47:41 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 93[\r][\n]"
+2018-04-29 07:47:41 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:8081[\r][\n]"
+2018-04-29 07:47:41 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-04-29 07:47:41 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)[\r][\n]"
+2018-04-29 07:47:41 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-04-29 07:47:41 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-04-29 07:47:41 DEBUG wire:87 - http-outgoing-0 >> "{"author":"koushik","created":"2018-04-24T22:12:10.926-07:00","message":"Hello  niraj gupta"}"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 201 Created[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-0 << "Location: http://localhost:8081/messenger/webapi/messages/5[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 111[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-0 << "Date: Sun, 29 Apr 2018 02:17:42 GMT[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:87 - http-outgoing-0 << "{"author":"koushik","created":"2018-04-25T10:42:10.926+05:30","id":5,"links":[],"message":"Hello  niraj gupta"}"
+2018-04-29 07:47:42 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 201 Created
+2018-04-29 07:47:42 DEBUG headers:125 - http-outgoing-0 << Server: Apache-Coyote/1.1
+2018-04-29 07:47:42 DEBUG headers:125 - http-outgoing-0 << Location: http://localhost:8081/messenger/webapi/messages/5
+2018-04-29 07:47:42 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json
+2018-04-29 07:47:42 DEBUG headers:125 - http-outgoing-0 << Content-Length: 111
+2018-04-29 07:47:42 DEBUG headers:125 - http-outgoing-0 << Date: Sun, 29 Apr 2018 02:17:42 GMT
+2018-04-29 07:47:42 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-04-29 07:47:42 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {}->http://localhost:8081] can be kept alive indefinitely
+2018-04-29 07:47:42 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2018-04-29 07:47:42 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2018-04-29 07:47:42 INFO  RestfulUtil:40 - Inside getConfigProperties Method
+2018-04-29 07:47:42 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-04-29 07:47:42 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-04-29 07:47:42 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {}->http://localhost:8081][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2018-04-29 07:47:42 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 1][route: {}->http://localhost:8081][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2018-04-29 07:47:42 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:8081
+2018-04-29 07:47:42 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:8081
+2018-04-29 07:47:42 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49298<->127.0.0.1:8081
+2018-04-29 07:47:42 DEBUG MainClientExec:256 - Executing request GET /messenger/webapi/messages HTTP/1.1
+2018-04-29 07:47:42 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-04-29 07:47:42 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-04-29 07:47:42 DEBUG headers:133 - http-outgoing-1 >> GET /messenger/webapi/messages HTTP/1.1
+2018-04-29 07:47:42 DEBUG headers:136 - http-outgoing-1 >> Host: localhost:8081
+2018-04-29 07:47:42 DEBUG headers:136 - http-outgoing-1 >> Connection: Keep-Alive
+2018-04-29 07:47:42 DEBUG headers:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)
+2018-04-29 07:47:42 DEBUG headers:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 >> "GET /messenger/webapi/messages HTTP/1.1[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 >> "Host: localhost:8081[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_171)[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 >> "[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 << "Server: Apache-Coyote/1.1[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 << "Content-Length: 364[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 << "Date: Sun, 29 Apr 2018 02:17:42 GMT[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:73 - http-outgoing-1 << "[\r][\n]"
+2018-04-29 07:47:42 DEBUG wire:87 - http-outgoing-1 << "[{"author":"koushik","created":"2018-04-29T07:47:42.969+05:30","id":1,"links":[],"message":"Hello World"},{"author":"koushik","created":"2018-04-29T07:47:42.969+05:30","id":2,"links":[],"message":"Hello Jersey"},{"id":3,"links":[]},{"id":4,"links":[]},{"author":"koushik","created":"2018-04-25T10:42:10.926+05:30","id":5,"links":[],"message":"Hello  niraj gupta"}]"
+2018-04-29 07:47:42 DEBUG headers:122 - http-outgoing-1 << HTTP/1.1 200 OK
+2018-04-29 07:47:42 DEBUG headers:125 - http-outgoing-1 << Server: Apache-Coyote/1.1
+2018-04-29 07:47:42 DEBUG headers:125 - http-outgoing-1 << Content-Type: application/json
+2018-04-29 07:47:42 DEBUG headers:125 - http-outgoing-1 << Content-Length: 364
+2018-04-29 07:47:42 DEBUG headers:125 - http-outgoing-1 << Date: Sun, 29 Apr 2018 02:17:42 GMT
+2018-04-29 07:47:42 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-04-29 07:47:42 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 1][route: {}->http://localhost:8081] can be kept alive indefinitely
+2018-04-29 07:47:42 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 0
+2018-04-29 07:47:42 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 1][route: {}->http://localhost:8081][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2018-04-29 07:47:42 INFO  GlobalStepDefinition:117 - Inside Teardown method

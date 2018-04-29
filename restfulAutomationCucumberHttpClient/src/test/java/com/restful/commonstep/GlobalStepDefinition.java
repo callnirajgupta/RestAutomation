@@ -96,7 +96,7 @@ public class GlobalStepDefinition {
 		String result = EntityUtils.toString(httpResponse.getEntity());
 		 System.out.println("print result "+result);
 		// Convert the result as a String to a JSON object
-		JSONObject jo = new JSONObject(result);
+		JSONObject jo = new JSONObject(result);//this will be determined the the response structure...if [] then as in "mapper.readTree" line 70-message.java...infact if mapper is used it can read both [] and {}...
 		 System.out.println("Verify content:"+jo.getString("City"));
 		 Assert.assertEquals("The Attribute not present", city, jo.get("City"));
 		 for(int i=0;i<responseAttributeList.size();i++){ 

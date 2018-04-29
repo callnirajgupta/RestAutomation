@@ -67,8 +67,9 @@ public class Message {
 		
 		String result = EntityUtils.toString(httpResponse.getEntity());
 		System.out.println("Json Response "+result);
-		JsonNode root=mapper.readTree(result);
-		System.out.println("print id value "+root.get(0).get("id"));
+		JsonNode root=mapper.readTree(result);//this will be determined the the response structure...if {} then as in "new JSONObject(result);" line 99-globalstep.java...
+		System.out.println("print id value "+root.get(0).get("id"));// since return is list of map
+		System.out.println("Response size, list size...."+root.size());
 		//Read this website
 		//http://tutorials.jenkov.com/java-json/jackson-objectmapper.html
 		//http://www.baeldung.com/jackson-object-mapper-tutorial
@@ -108,7 +109,8 @@ httpResponse=null;
 		
 		String result = EntityUtils.toString(httpResponse.getEntity());
 		System.out.println("Json Response "+result);
-		JsonNode root=mapper.readTree(result);
+		JsonNode root=mapper.readTree(result); //JSONObject jo = new JSONObject(result); could have been used but mapper can be used for both [],{}
+		System.out.println(root.size());
 		System.out.println("print id value "+root.get("id"));
 	  
 	}

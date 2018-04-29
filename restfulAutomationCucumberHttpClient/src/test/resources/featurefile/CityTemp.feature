@@ -1,5 +1,5 @@
 @CityTem @Regression
-Feature:verify city temperature
+Feature: verify city temperature  implemented HTTP Client
 
 Scenario Outline: get city temperature
 Given the Rest API City temperature is up an runing
