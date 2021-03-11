@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.rest.RestAssuredAutomation.action.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 8.563 sec <<< FAILURE! - in com.rest.RestAssuredAutomation.action.TestRunner
+T05_printAttributes(com.rest.RestAssuredAutomation.ExampleTest2)  Time elapsed: 1.275 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.rest.RestAssuredAutomation.ExampleTest2.getMergedVideoLists(ExampleTest2.java:81)
+	at com.rest.RestAssuredAutomation.ExampleTest2.printAttributes(ExampleTest2.java:86)
+	at com.rest.RestAssuredAutomation.ExampleTest2.T05_printAttributes(ExampleTest2.java:66)
+
+T03_verifyExtraFourVideosReturned(com.rest.RestAssuredAutomation.ExampleTest2)  Time elapsed: 1.156 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.rest.RestAssuredAutomation.ExampleTest2.T03_verifyExtraFourVideosReturned(ExampleTest2.java:54)
+
+T02_SearchTermTest(com.rest.RestAssuredAutomation.ExampleTest2)  Time elapsed: 1.183 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.rest.RestAssuredAutomation.ExampleTest2.T02_SearchTermTest(ExampleTest2.java:48)
+
+T04_duplicateVideoVerification(com.rest.RestAssuredAutomation.ExampleTest2)  Time elapsed: 1.131 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.rest.RestAssuredAutomation.ExampleTest2.getMergedVideoLists(ExampleTest2.java:81)
+	at com.rest.RestAssuredAutomation.ExampleTest2.T04_duplicateVideoVerification(ExampleTest2.java:60)
+

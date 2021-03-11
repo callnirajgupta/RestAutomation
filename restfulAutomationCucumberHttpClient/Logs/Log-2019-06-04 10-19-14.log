@@ -1,0 +1,119 @@
+2019-06-04 22:19:15 INFO  RestfulUtil:17 - Inside static block
+2019-06-04 22:19:15 INFO  RestfulUtil:29 - delete log from logs folder
+2019-06-04 22:19:15 DEBUG RestfulUtil:34 - Logs deleted
+2019-06-04 22:19:15 DEBUG RestfulUtil:34 - Logs deleted
+2019-06-04 22:19:15 DEBUG RestfulUtil:34 - Logs deleted
+2019-06-04 22:19:15 INFO  GlobalStepDefinition:35 - Inside Setup method
+2019-06-04 22:19:16 INFO  RestfulUtil:40 - Inside getConfigProperties Method
+2019-06-04 22:19:17 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2019-06-04 22:19:17 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-06-04 22:19:17 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-06-04 22:19:17 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-06-04 22:19:17 DEBUG MainClientExec:235 - Opening connection {}->http://restapi.demoqa.com:80
+2019-06-04 22:19:17 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to restapi.demoqa.com/184.154.68.154:80
+2019-06-04 22:19:18 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.3:58331<->184.154.68.154:80
+2019-06-04 22:19:18 DEBUG MainClientExec:256 - Executing request GET /utilities/weather/city/Hyderabad HTTP/1.1
+2019-06-04 22:19:18 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2019-06-04 22:19:18 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2019-06-04 22:19:18 DEBUG headers:133 - http-outgoing-0 >> GET /utilities/weather/city/Hyderabad HTTP/1.1
+2019-06-04 22:19:18 DEBUG headers:136 - http-outgoing-0 >> Host: restapi.demoqa.com
+2019-06-04 22:19:18 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2019-06-04 22:19:18 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+2019-06-04 22:19:18 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 >> "GET /utilities/weather/city/Hyderabad HTTP/1.1[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 >> "Host: restapi.demoqa.com[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Server: nginx[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Date: Tue, 04 Jun 2019 16:49:08 GMT[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 170[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: max-age=0[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Expires: Tue, 04 Jun 2019 16:49:08 GMT[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "alt-svc: quic=":443"; ma=86400; v="43,39"[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2019-06-04 22:19:18 DEBUG wire:73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]M[0x8e][0xbb][\n]"
+2019-06-04 22:19:18 DEBUG wire:87 - http-outgoing-0 << "[0xc2]@[0x10]E[0xfb]|[0xc5][0xb0][0xb5][0x4][0xa3][0xa6][0x88][0xad])[0x2]6[0x82]B[0xea]u[0xf7]b[0x16][0xcc][0x83][0xd9][0xd9]"[0x88][0xff]n[0xd6]$[0xe2][0x94]s[0xe][0x97][0xf3]Jh:ur2[0xaa]#[0xa9]j[0xb4]`}[0xd7]VmfpC;L[0x1f][0x9][0x8c][0xc8][0xf7]Yz([0xa8][0xc4][0x83][0x1]2xz[0x17][0xfc][0xaa]V[0xa1]uv[0xd9][0xc9][0xb][0xba][0x80][\r]:Yi[\r]-[\r][0xb8][0x84]7[0xec][0x6]q}[0x17]=o[0xb4][0x8][0x18][0x96][0xcc][0xb3][0xf][0xf6][0xb7]U[0xbb][0xce]^[0x7][0xc0]Fi[0x97]ftni[0xea][0xa0][0xa6][0xf][0xfc][0xef][0x94][0x8e]a[0xe2][0xd8][0x9c][0xf4][0xb5][0xf3][0xed][0x12][0xa8][0x92][0xf7][0x7]-[0xf1][0xe4]k[0xdf][0x0][0x0][0x0]"
+2019-06-04 22:19:18 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Server: nginx
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Date: Tue, 04 Jun 2019 16:49:08 GMT
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Content-Length: 170
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Vary: Accept-Encoding
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Content-Encoding: gzip
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Cache-Control: max-age=0
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Expires: Tue, 04 Jun 2019 16:49:08 GMT
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << X-Proxy-Cache: BYPASS
+2019-06-04 22:19:18 DEBUG headers:125 - http-outgoing-0 << alt-svc: quic=":443"; ma=86400; v="43,39"
+2019-06-04 22:19:18 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2019-06-04 22:19:18 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {}->http://restapi.demoqa.com:80] can be kept alive indefinitely
+2019-06-04 22:19:18 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2019-06-04 22:19:18 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {}->http://restapi.demoqa.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-06-04 22:19:18 INFO  GlobalStepDefinition:117 - Inside Teardown method
+2019-06-04 22:19:18 INFO  GlobalStepDefinition:35 - Inside Setup method
+2019-06-04 22:19:18 INFO  RestfulUtil:40 - Inside getConfigProperties Method
+2019-06-04 22:19:18 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2019-06-04 22:19:18 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2019-06-04 22:19:18 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-06-04 22:19:18 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 1][route: {}->http://restapi.demoqa.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-06-04 22:19:18 DEBUG MainClientExec:235 - Opening connection {}->http://restapi.demoqa.com:80
+2019-06-04 22:19:18 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to restapi.demoqa.com/184.154.68.154:80
+2019-06-04 22:19:19 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.3:58333<->184.154.68.154:80
+2019-06-04 22:19:19 DEBUG MainClientExec:256 - Executing request GET /utilities/weather/city/Bangalore HTTP/1.1
+2019-06-04 22:19:19 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2019-06-04 22:19:19 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2019-06-04 22:19:19 DEBUG headers:133 - http-outgoing-1 >> GET /utilities/weather/city/Bangalore HTTP/1.1
+2019-06-04 22:19:19 DEBUG headers:136 - http-outgoing-1 >> Host: restapi.demoqa.com
+2019-06-04 22:19:19 DEBUG headers:136 - http-outgoing-1 >> Connection: Keep-Alive
+2019-06-04 22:19:19 DEBUG headers:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)
+2019-06-04 22:19:19 DEBUG headers:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 >> "GET /utilities/weather/city/Bangalore HTTP/1.1[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 >> "Host: restapi.demoqa.com[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_161)[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 >> "[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Server: nginx[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Date: Tue, 04 Jun 2019 16:49:09 GMT[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Content-Type: application/json[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Content-Length: 169[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Vary: Accept-Encoding[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Cache-Control: max-age=0[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Expires: Tue, 04 Jun 2019 16:49:09 GMT[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "X-Proxy-Cache: BYPASS[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "alt-svc: quic=":443"; ma=86400; v="43,39"[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "[\r][\n]"
+2019-06-04 22:19:19 DEBUG wire:73 - http-outgoing-1 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]M[0x8e][0xcb][\n]"
+2019-06-04 22:19:19 DEBUG wire:87 - http-outgoing-1 << "[0xc2]0[0x10]E[0xf7][0xfd][0x8a]!k)[0xda][0x82][0xaf][0xa5]v![0xb8][0x11][0x14][0xba][0xe][0xc9][0xb5][\r][0xb4]I[0x99]&[0x88][0x88][0xff]nj[q[0x96]s[0xe][0x97][0xf3]J([0x9e]8[0x1a][0xff][0x14]{[0x12][0x7]i+[0xd9]8[0x86]X[0x8c][0xe0][0x86][0xb6][0x3]K[0x1f][0xe2]+[0xf2]l[0x9b][0xe6][0x19][0x15][0xa8][0x18] [0x85][0xa6]7[0xa1][0x9f][0xd5]Sh[0x8d][0x9e]v[0xd6];[0xba][0x80][0x15][0xac][0x9f]i[0x9][0xe9]kp[0x81]^[0xb1][0xe9][0xbc]qv[0xf0][0xee]x[0x90]j\[0xd0][0xbf][0x95][0xd2]X}[0xed][0x0]=[0xe0]<][0xd1][0xb9][0xa5]X@[0xb5][0xb][0xfc][0xef][0x14][0x86][0xa1][0x86][0x99]1[0xe6][0x1b][0xb7]YNi"y[0x0]Ab[0xea][0x96][0xd9][0x0][0x0][0x0]"
+2019-06-04 22:19:19 DEBUG headers:122 - http-outgoing-1 << HTTP/1.1 200 OK
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Server: nginx
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Date: Tue, 04 Jun 2019 16:49:09 GMT
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Content-Type: application/json
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Content-Length: 169
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Connection: keep-alive
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Vary: Accept-Encoding
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Content-Encoding: gzip
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Cache-Control: max-age=0
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Expires: Tue, 04 Jun 2019 16:49:09 GMT
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << Access-Control-Allow-Origin: *
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << X-Proxy-Cache: BYPASS
+2019-06-04 22:19:19 DEBUG headers:125 - http-outgoing-1 << alt-svc: quic=":443"; ma=86400; v="43,39"
+2019-06-04 22:19:19 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2019-06-04 22:19:19 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 1][route: {}->http://restapi.demoqa.com:80] can be kept alive indefinitely
+2019-06-04 22:19:19 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 0
+2019-06-04 22:19:19 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 1][route: {}->http://restapi.demoqa.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-06-04 22:19:19 INFO  GlobalStepDefinition:117 - Inside Teardown method
